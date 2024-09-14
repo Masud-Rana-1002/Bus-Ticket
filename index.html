@@ -9,13 +9,17 @@
 </head>
 
 <body class="max-w-screen-2xl mx-auto pt-6">
+    <!-- Header start -->
     <header>
+        <!-- Nav start here -->
         <nav class="flex justify-between">
+            <!-- Logo -->
             <div>
                 <div id="logo">
                     <h2 class="text-4xl font-extrabold">P-Ticket</h2>
                 </div>
             </div>
+            <!-- Manu -->
             <div>
                 <ul class="flex gap-6 text-lg text-slate-600 font-medium">
                     <li><a href="">Home</a></li>
@@ -30,6 +34,8 @@
                     <img class="inline-block w-8 h-6" src="images/bus-icon.png" alt=""></button>
             </div>
         </nav>
+        <!-- Nav end here -->
+         <!-- Banner start Here  -->
         <div class="relative">
             <div id="banner"
                 class=" h-[700px] pb-5 mt-6 text-center space-y-4 h- w-full rounded-md     bg-[url('./images/banner.png')] flex flex-col justify-center items-center bg-no-repeat mx-auto  bg-cover ">
@@ -66,9 +72,12 @@
                 </div>
             </div>
         </div>
+         <!-- Banner end Here  -->
 
     </header>
+    <!-- Header end -->
     <main>
+        <!-- Best offers for you section strat here -->
         <section class="my-28">
             <h2 class="text-4xl font-bold text-center">
                 Best offers for you
@@ -109,6 +118,7 @@
                     Offers</button>
             </div>
         </section>
+        <!-- Best offers for you section strat here -->
         <section class="border-t-2  rounded-xl border-green-600 bg-[#F7F8F8]">
             <h2 class="text-4xl text-center pt-8">P.H Paribahan</h2>
             <p class="text-center w-2/5 mx-auto mb-5">Yes, you can run unit tests and view the results directly within
@@ -130,7 +140,7 @@
                         <div>
                             <button class="text-lg font-bold text-green-600
                             bg-green-200 p-4 rounded-md"> <img class="inline-block mr-2" src="./images/seat-green.png"
-                                    alt=""><span id="total-seat"></span> Seats left</button>
+                                    alt=""><span id="total-seat">40</span> Seats left</button>
                         </div>
 
                     </div>
@@ -201,121 +211,121 @@
                         <div class="flex justify-between mt-4  gap-6">
                             <div class="flex w-full items-center justify-center  gap-6 ">
                                 <p class="mr-4">A</p>
-                                <button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">A1</button>
-                                <button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">A2</button>
+                                <button id="A1" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">A1</button>
+                                <button id="A2" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">A2</button>
                             </div>
                             <div class="flex w-full items-center justify-center gap-6">
 
-                                <div><button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">A3</button></div>
-                                <div><button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">A4</button></div>
+                                <div><button id="A3"  class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">A3</button></div>
+                                <div><button id="A4"  class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">A4</button></div>
                             </div>
                         </div>
                         <div class="flex justify-between mt-4  gap-6">
                             <div class="flex w-full items-center justify-center  gap-6 ">
                                 <p class="mr-4">B</p>
-                                <button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">B1</button>
-                                <button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">B2</button>
+                                <button id="B1" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">B1</button>
+                                <button id="B2" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">B2</button>
                             </div>
                             <div class="flex w-full items-center justify-center gap-6">
 
-                                <div><button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">B3</button></div>
-                                <div><button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">B4</button></div>
+                                <div><button id="B3" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">B3</button></div>
+                                <div><button id="B4" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">B4</button></div>
                             </div>
                         </div>
                         <div class="flex justify-between mt-4  gap-6">
                             <div class="flex w-full items-center justify-center  gap-6 ">
                                 <p class="mr-4">C</p>
-                                <button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">C1</button>
-                                <button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">C2</button>
+                                <button id="C1" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">C1</button>
+                                <button id="C2" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">C2</button>
                             </div>
                             <div class="flex w-full items-center justify-center gap-6">
 
-                                <div><button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">C3</button></div>
-                                <div><button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">C4</button></div>
+                                <div><button id="C3" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">C3</button></div>
+                                <div><button id="C4" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">C4</button></div>
                             </div>
                         </div>
                         <div class="flex justify-between mt-4  gap-6">
                             <div class="flex w-full items-center justify-center  gap-6 ">
                                 <p class="mr-4">D</p>
-                                <button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">D1</button>
-                                <button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">D2</button>
+                                <button id="D1" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">D1</button>
+                                <button id="D2" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">D2</button>
                             </div>
                             <div class="flex w-full items-center justify-center gap-6">
 
-                                <div><button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">D3</button></div>
-                                <div><button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">D4</button></div>
+                                <div><button id="D3" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">D3</button></div>
+                                <div><button id="D4" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">D4</button></div>
                             </div>
                         </div>
                         <div class="flex justify-between mt-4  gap-6">
                             <div class="flex w-full items-center justify-center  gap-6 ">
                                 <p class="mr-4">E</p>
-                                <button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">E1</button>
-                                <button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">E2</button>
+                                <button id="E1" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">E1</button>
+                                <button id="E2" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">E2</button>
                             </div>
                             <div class="flex w-full items-center justify-center gap-6">
 
-                                <div><button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">E3</button></div>
-                                <div><button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">E4</button></div>
+                                <div><button id="E3" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">E3</button></div>
+                                <div><button id="E4" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">E4</button></div>
                             </div>
                         </div>
                         <div class="flex justify-between mt-4  gap-6">
                             <div class="flex w-full items-center justify-center  gap-6 ">
                                 <p class="mr-4">F</p>
-                                <button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">F1</button>
-                                <button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">F2</button>
+                                <button id="F1" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">F1</button>
+                                <button id="F2" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">F2</button>
                             </div>
                             <div class="flex w-full items-center justify-center gap-6">
 
-                                <div><button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">F3</button></div>
-                                <div><button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">F4</button></div>
+                                <div><button id="F3" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">F3</button></div>
+                                <div><button id="F4" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">F4</button></div>
                             </div>
                         </div>
                         <div class="flex justify-between mt-4  gap-6">
                             <div class="flex w-full items-center justify-center  gap-6 ">
                                 <p class="mr-4">G</p>
-                                <button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">G1</button>
-                                <button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">G2</button>
+                                <button id="G1" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">G2</button>
+                                <button id="G2" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">G1</button>
                             </div>
                             <div class="flex w-full items-center justify-center gap-6">
 
-                                <div><button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">G3</button></div>
-                                <div><button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">G4</button></div>
+                                <div><button id="G3" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">G3</button></div>
+                                <div><button id="G4" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">G4</button></div>
                             </div>
                         </div>
                         <div class="flex justify-between mt-4  gap-6">
                             <div class="flex w-full items-center justify-center  gap-6 ">
                                 <p class="mr-4">H</p>
-                                <button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">H1</button>
-                                <button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">H2</button>
+                                <button id="H1" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">H1</button>
+                                <button id="H2" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">H2</button>
                             </div>
                             <div class="flex w-full items-center justify-center gap-6">
 
-                                <div><button class="bg-[#cfd0d0]  w-32 py-3 rounded-md seat-postion">H3</button></div>
-                                <div><button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">H4</button></div>
+                                <div><button id="H3" class="bg-[#cfd0d0]  w-32 py-3 rounded-md seat-position">H3</button></div>
+                                <div><button id="H4" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">H4</button></div>
                             </div>
                         </div>
                         <div class="flex justify-between mt-4  gap-6">
                             <div class="flex w-full items-center justify-center  gap-6 ">
                                 <p class="mr-4">I</p>
-                                <button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">I1</button>
-                                <button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">I2</button>
+                                <button id="I1" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">I1</button>
+                                <button id="I2" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">I2</button>
                             </div>
                             <div class="flex w-full items-center justify-center gap-6">
 
-                                <div><button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">I3</button></div>
-                                <div><button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">I4</button></div>
+                                <div><button id="I3" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">I3</button></div>
+                                <div><button id="I4" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">I4</button></div>
                             </div>
                         </div>
                         <div class="flex justify-between mt-4  gap-6">
                             <div class="flex w-full items-center justify-center  gap-6 ">
                                 <p class="mr-4">J</p>
-                                <button class="bg-[#cfd0d0] w-32  py-3 rounded-md seat-postion">J1</button>
-                                <button class="bg-[#cfd0d0] w-32  py-3 rounded-md seat-postion">J2</button>
+                                <button id="J1" class="bg-[#cfd0d0] w-32  py-3 rounded-md seat-position">J1</button>
+                                <button id="J2" class="bg-[#cfd0d0] w-32  py-3 rounded-md seat-position">J2</button>
                             </div>
                             <div class="flex w-full items-center justify-center gap-6">
 
-                                <div><button class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-postion">J3</button></div>
-                                <div><button class="bg-[#cfd0d0] w-32  py-3 rounded-md seat-postion">J4</button></div>
+                                <div><button id="J3" class="bg-[#cfd0d0] w-32 py-3 rounded-md seat-position">J3</button></div>
+                                <div><button id="J4" class="bg-[#cfd0d0] w-32  py-3 rounded-md seat-position">J4</button></div>
                             </div>
                         </div>
                     </div>
@@ -333,15 +343,13 @@
                         </div>
                         <div  class="border-b-2 ">
                             
-                            <div id="selacttetSet" class=" flex justify-between text-lg font-medium pb-3 text-gray-600">
-                                <p>C2 </p>
-                                <p>Economoy</p>
-                                <p>550</p>
+                            <div id="selectedSeat" class=" flex justify-between text-lg font-medium pb-3 text-gray-600 flex-col">
+                           
                             </div>
                         </div>
-                        <div class="flex justify-between text-lg font-bold">
+                        <div  class="flex justify-between text-lg font-bold ">
                             <p>Total Price</p>
-                            <p>BDT 1100</p>
+                            <p>BDT <span id="totaoPay">0</span></p>
                         </div>
                     </div>
                     <!--  -->
